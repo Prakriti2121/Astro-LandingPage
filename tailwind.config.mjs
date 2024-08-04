@@ -3,6 +3,12 @@ export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      maxWidth: {
+        'screen-sm': '640px',
+        'screen-md': '768px',
+        'screen-lg': '1024px',
+        'screen-xl': '1280px',
+      },
       fontFamily: {
         sans: ['Encode Sans', 'sans-serif'],
         serif: ['Vollkorn', 'serif'],
