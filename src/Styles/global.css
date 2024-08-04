@@ -8,14 +8,13 @@
 body {
     font-family: 'Encode Sans', sans-serif;
     font-size: 14px;
+    background-image: url('..src/assets/background-image');
+    background-size: cover;
+    background-position: center;
 }
 
 h3 {
     font-family: 'Vollkorn', serif;
     font-size: 48px; 
 }
-body {
-    background-image: url('..src/assets/background-image');
-    background-size: cover;
-    background-position: center;
-  }
+
