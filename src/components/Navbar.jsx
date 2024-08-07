@@ -11,16 +11,16 @@ const Navbar = () => {
     { href: "#contact", label: "Contact Us" },
   ];
   return (
-    <nav className="mx-auto p-6 container">
-      <div className="flex items-center justify-between bg-white h-[3rem] ">
-        <div className="py-2">
+    <nav className="mx-auto container">
+      <div className="flex items-center justify-between bg-white ">
+        <div className=" flex-shrink-0">
           <img
             src="../src/assets/logopanda.png"
             alt="Logo"
-            className="w-auto h-20 py-auto"
+            className="w-28 h-auto "
           />
         </div>
-        <div className="hidden space-x-6 md:flex justify-center text-sm">
+        <div className="hidden md:flex gap-8 text-sm">
           {links.map((link, index) => (
             <a key={index} href={link.href} className="hover:text-primary">
               {link.label}

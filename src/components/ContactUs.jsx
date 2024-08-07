@@ -8,9 +8,9 @@ const ContactUs = () => {
       className="mt-16 mx-4 sm:mx-8 md:mx-12 lg:mx-32 p-4 sm:p-6 rounded-lg "
     >
       <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-1/2 p-4 sm:p-6 flex flex-col space-y-6">
-          <div className="space-y-3 text-xl md:text-2xl lg:text-4xl text-primary font-family font-sans">
-          <div className="text-2xl md:text-3xl lg:text-4xl text-primary font-family font-sans">
+        <div className="w-full md:w-1/2 p-4 sm:p-6 flex flex-col">
+          <div className="space-y-3 text-xl md:text-2xl text-primary">
+          <div className="text-4xl  text-primary font-normal font-serif">
             <h3>Voice for Being Together</h3>
           </div>
             <p className="font-sans text-sm lg:text-base text-center md:text-left text-black py-2">

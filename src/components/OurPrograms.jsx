@@ -6,7 +6,7 @@ import ProgramCard from './ProgramCard';
 const OurPrograms = () => {
   return (
     <section id="ourprograms" className="mt-12 mx-32 bg-white">
-      <div className="text-center text-4xl font-Vollkorn text-primary pb-10">
+      <div className="text-center text-5xl font-serif font-normal text-primary pb-10">
         Our Programs
       </div>
       <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">

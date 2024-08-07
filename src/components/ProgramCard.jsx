@@ -9,11 +9,11 @@ const ProgramCard = ({ image, title, description, buttonText }) => {
       </a>
       <div className="p-5">
         <a href="#">
-          <h2 className="mb-2 text-lg font-bold text-gray-900 tracking-normal dark:text-white leading-6">
+          <h2 className="mb-2 text-lg  font-sans font-bold text-gray-900 tracking-normal dark:text-white leading-6">
             {title}
           </h2>
         </a>
-        <p className="mb-3 font-normal text-gray-700 text-xs font-sans dark:text-gray-400">
+        <p className="mb-3 font-normal text-gray-700 text-sm font-sans tracking-tighter ">
           {description}
         </p>
         <div className="flex justify-center items-center">
