@@ -10,9 +10,9 @@ const frequentlyAskQuestions = [
 const App = () => {
   return (
     <div className="w-full flex ">
-      <div className="w-[80%] border rounded-lg overflow-hidden">
+      <div className="w-[80%] rounded-lg overflow-hidden">
         {frequentlyAskQuestions.map((item, i) => (
-          <div key={i} className="border-b last:border-b-0">
+          <div key={i} className="border-b ">
             <div className="px-5 py-4 flex items-center justify-between cursor-pointer">
               <p className="flex-1">{item.title}</p>
               <span>
