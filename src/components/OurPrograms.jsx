@@ -11,19 +11,19 @@ const OurPrograms = () => {
       </div>
       <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
         <ProgramCard
-          image="../src/assets/Waterfall.png"
+          image="../public/images/assets/Waterfall.png"
           title="Preserving Waterfall Biodiversity: Our Commitment to Conservation"
           description="Preserving Waterfall Biodiversity: Our commitment to conservation for sustained beauty."
           buttonText="Join Us"
         />
         <ProgramCard
-          image="../src/assets/Birds.png"
+          image="../public/images/assets/Birds.png"
           title="Birds Conservation in Arun Valley: Safeguarding Avian Biodiversity"
           description="Surveying and safeguarding Arun Valley's birdlife for a thriving ecosystem."
           buttonText="Join Us"
         />
         <ProgramCard
-          image="../src/assets/pythonsafari.png"
+          image="../public/images/assets/pythonsafari.png"
           title="Python Discovery: Navigating the Wild World of Snakes"
           description="Python Safari for an up-close look at the fascinating lives of these elegant snakes in the wild."
           buttonText="Join Us"

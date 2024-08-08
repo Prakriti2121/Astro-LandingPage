@@ -4,7 +4,7 @@ import Button from "./Button";
 const Impact = () => {
   return (
     <section id="hero" className="mt-14 relative w-full h-[80vh]">
-      <div className="absolute  bg-cover bg-center w-full h-full bg-[url(/src/assets/Animalbg.png)]">
+      <div className="absolute  bg-cover bg-center w-full h-full bg-[url(/public/images/assets/Animalbg.png)]">
         <div className="relative flex flex-col w-full h-full p-6 md:p-12 lg:p-24">
           <div className="font-serif text-primary text-5xl font-normal">
             <h3>If you want, you can.</h3>

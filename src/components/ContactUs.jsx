@@ -47,7 +47,7 @@ const ContactUs = () => {
         </div>
         <div className="w-full md:w-1/2 p-4 sm:p-6 flex justify-center items-center">
           <img
-            src="../src/assets/prosandcons.png"
+            src="../public/images/assets/prosandcons.png"
             alt="Pros and Cons"
             className="w-full h-auto object-cover rounded-lg"
           />

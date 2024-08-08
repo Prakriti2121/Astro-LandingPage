@@ -13,7 +13,7 @@ const AboutUs = () => {
             <h3 className="text-3xl md:text-5xl font-serif text-center md:text-left font-normal">
               About Us
             </h3>
-            <p className="font-sans font-normal text-lg text-center tracking-tight md:text-left">
+            <p className="font-sans font-normal text-lg text-center tracking-tight pt-4 md:text-left">
               Our mission is to conserve nature and reduce the most pressing
               threats to the diversity of life on Earth.
             </p>
@@ -21,17 +21,17 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col gap-4 w-full md:w-1/2">
             <img
-              src="../src/assets/forest.png"
+              src="../public/images/assets/forest.png"
               alt="Forest"
               className="object-cover rounded-lg"
             />
             <img
-              src="../src/assets/ocean.png"
+              src="../public/images/assets/ocean.png"
               alt="Ocean"
               className="w-full h-auto object-cover rounded-lg"
             />
             <img
-              src="../src/assets/tiger.png"
+              src="../public/images/assets/tiger.png"
               alt="Tiger"
               className="w-full h-auto object-cover rounded-lg"
             />

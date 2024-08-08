@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/logopanda.png";
 import Layout from "../layouts/Layout.astro";
 import Button from "../components/Button.jsx";
 
@@ -15,7 +14,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between bg-white ">
         <div className=" flex-shrink-0">
           <img
-            src="../src/assets/logopanda.png"
+            src="..\public\images\assets\logopanda.png"
             alt="Logo"
             className="w-28 h-auto "
           />

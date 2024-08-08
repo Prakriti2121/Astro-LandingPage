@@ -11,7 +11,7 @@ const Features = () => {
           <div className="flex flex-col h-full">
             <a href="#">
               <img
-                src="../src/assets/Godawari.png"
+                src="../public/images/assets/Godawari.png"
                 alt="Botanical Garden"
                 className="w-full object-cover rounded-lg"
               />
@@ -39,7 +39,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start pb-5">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../src/assets/Homestay.png"
+                src="../public/images/assets/Homestay.png"
                 alt="Homestay"
                 className="w-full h-[160px] object-cover rounded-lg"
               />
@@ -64,7 +64,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start pb-5">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../src/assets/Butterfly.png"
+                src="../public/images/assets/Butterfly.png"
                 alt="Butterfly"
                 className="w-full h-[160px] object-cover rounded-lg"
               />
@@ -89,7 +89,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start ">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../src/assets/WildLife.png"
+                src="../public/images/assets/WildLife.png"
                 alt="WildLife"
                 className="w-full h-[160px] object-cover rounded-lg"
               />

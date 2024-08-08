@@ -9,7 +9,7 @@ const Footer = () => {
     >
       <div className="pl-24 pr-36">
         <img
-          src="../src/assets/logopanda.png"
+          src="../public/images/assets/logopanda.png"
           alt="Logo"
           className="w-56 h-auto "
         />
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex items-center font-normal pt-2">
               <img
-                src="../src/assets/instagramicon.png"
+                src="../public/images/assets/instagramicon.png"
                 className="w-6 h-6 mr-2"
                 alt="Instagram Logo"
               />
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../src/assets/fbicon.png"
+                src="../public/images/assets/fbicon.png"
                 className="w-6 h-6 mr-2"
                 alt="Facebook Logo"
               />
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../src/assets/twitter.png"
+                src="../public/images/assets/twitter.png"
                 className="w-6 h-6 mr-2"
                 alt="Twitter Logo"
               />
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../src/assets/tiktok.png"
+                src="../public/images/assets/tiktok.png"
                 className="w-6 h-6 mr-2"
                 alt="Tiktok Logo"
               />
