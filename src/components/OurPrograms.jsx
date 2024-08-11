@@ -2,6 +2,10 @@ import React from 'react';
 import Button from './Button';
 import Features from './Features';
 import ProgramCard from './ProgramCard';
+import waterfall from "../../public/assets/Waterfall.png";
+import birds from "../../public/assets/Birds.png";
+import python from "../../public/assets/pythonsafari.png";
+
 
 const OurPrograms = () => {
   return (
@@ -11,19 +15,19 @@ const OurPrograms = () => {
       </div>
       <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0">
         <ProgramCard
-          image="../public/images/assets/Waterfall.png"
+          image={waterfall.src}
           title="Preserving Waterfall Biodiversity: Our Commitment to Conservation"
           description="Preserving Waterfall Biodiversity: Our commitment to conservation for sustained beauty."
           buttonText="Join Us"
         />
         <ProgramCard
-          image="../public/images/assets/Birds.png"
+          image={birds.src}
           title="Birds Conservation in Arun Valley: Safeguarding Avian Biodiversity"
           description="Surveying and safeguarding Arun Valley's birdlife for a thriving ecosystem."
           buttonText="Join Us"
         />
         <ProgramCard
-          image="../public/images/assets/pythonsafari.png"
+          image={python.src}
           title="Python Discovery: Navigating the Wild World of Snakes"
           description="Python Safari for an up-close look at the fascinating lives of these elegant snakes in the wild."
           buttonText="Join Us"

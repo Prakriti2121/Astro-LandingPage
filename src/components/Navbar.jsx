@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../layouts/Layout.astro";
+import logo from "../../public/assets/logopanda.png";
 import Button from "../components/Button.jsx";
 
 const Navbar = () => {
@@ -11,12 +12,12 @@ const Navbar = () => {
   ];
   return (
     <nav className="mx-auto container">
-      <div className="flex items-center justify-between bg-white ">
-        <div className=" flex-shrink-0">
+      <div className="flex items-center justify-between bg-white">
+        <div className="flex-shrink-0">
           <img
-            src="..\public\images\assets\logopanda.png"
+            src={logo.src}
             alt="Logo"
-            className="w-28 h-auto "
+            className="w-28 h-auto"
           />
         </div>
         <div className="hidden md:flex gap-8 text-sm">

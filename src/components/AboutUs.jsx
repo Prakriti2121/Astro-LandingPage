@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "../components/Accordion.jsx";
+import forest from "../../public/assets/forest.png";
+import ocean from "../../public/assets/ocean.png";
+import tiger from "../../public/assets/tiger.png";
 
 const AboutUs = () => {
   return (
@@ -21,17 +24,17 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col gap-4 w-full md:w-1/2">
             <img
-              src="../public/images/assets/forest.png"
+              src={forest.src}
               alt="Forest"
               className="object-cover rounded-lg"
             />
             <img
-              src="../public/images/assets/ocean.png"
+              src={ocean.src}
               alt="Ocean"
               className="w-full h-auto object-cover rounded-lg"
             />
             <img
-              src="../public/images/assets/tiger.png"
+              src={tiger.src}
               alt="Tiger"
               className="w-full h-auto object-cover rounded-lg"
             />

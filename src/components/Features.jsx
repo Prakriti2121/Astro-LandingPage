@@ -1,5 +1,10 @@
 import React from "react";
 import Button from "./Button";
+import godawari from "../../public/assets/Godawari.png";
+import homestay from "../../public/assets/Homestay.png";
+import butterfly from "../../public/assets/Butterfly.png";
+import wildlife from "../../public/assets/WildLife.png";
+
 
 const Features = () => {
   return (
@@ -11,7 +16,7 @@ const Features = () => {
           <div className="flex flex-col h-full">
             <a href="#">
               <img
-                src="../public/images/assets/Godawari.png"
+                src={godawari.src}
                 alt="Botanical Garden"
                 className="w-full object-cover rounded-lg"
               />
@@ -39,7 +44,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start pb-5">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../public/images/assets/Homestay.png"
+                src={homestay.src}
                 alt="Homestay"
                 className="w-full h-[160px] object-cover rounded-lg"
               />
@@ -64,7 +69,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start pb-5">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../public/images/assets/Butterfly.png"
+                src={butterfly.src}
                 alt="Butterfly"
                 className="w-full h-[160px] object-cover rounded-lg"
               />
@@ -89,7 +94,7 @@ const Features = () => {
           <div className="flex flex-col sm:flex-row items-start ">
             <a href="#" className="w-full sm:w-1/2">
               <img
-                src="../public/images/assets/WildLife.png"
+                src={wildlife.src}
                 alt="WildLife"
                 className="w-full h-[160px] object-cover rounded-lg"
               />

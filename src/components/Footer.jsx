@@ -1,5 +1,12 @@
 import React from "react";
 import Button from "./Button";
+import logo from "../../public/assets/logopanda.png";
+import instagram from "../../public/assets/instagramicon.png";
+import facebook from "../../public/assets/fbicon.png";
+import twitter from "../../public/assets/twitter.png";
+import tiktok from "../../public/assets/tiktok.png";
+
+
 
 const Footer = () => {
   return (
@@ -9,7 +16,7 @@ const Footer = () => {
     >
       <div className="pl-24 pr-36">
         <img
-          src="../public/images/assets/logopanda.png"
+          src={logo.src}
           alt="Logo"
           className="w-56 h-auto "
         />
@@ -21,7 +28,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex items-center font-normal pt-2">
               <img
-                src="../public/images/assets/instagramicon.png"
+                src={instagram.src}
                 className="w-6 h-6 mr-2"
                 alt="Instagram Logo"
               />
@@ -29,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../public/images/assets/fbicon.png"
+                src={facebook.src}
                 className="w-6 h-6 mr-2"
                 alt="Facebook Logo"
               />
@@ -37,7 +44,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../public/images/assets/twitter.png"
+                src={twitter.src}
                 className="w-6 h-6 mr-2"
                 alt="Twitter Logo"
               />
@@ -45,7 +52,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center font-normal mb-2">
               <img
-                src="../public/images/assets/tiktok.png"
+                src={tiktok.src}
                 className="w-6 h-6 mr-2"
                 alt="Tiktok Logo"
               />
